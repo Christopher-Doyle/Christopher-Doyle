@@ -1,20 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="600" viewBox="0 0 920 600">
-<defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#54ffd0"/><stop offset=".52" stop-color="#64d9ff"/><stop offset="1" stop-color="#c58cff"/></linearGradient><style>.k{fill:#7dffd8;font-weight:700}.v{fill:#d8e5e2}.row{opacity:0;animation:show .45s ease-out forwards}@keyframes show{to{opacity:1}}</style></defs>
-<rect width="920" height="600" rx="20" fill="#05070a"/><rect x="2" y="2" width="916" height="596" rx="18" fill="none" stroke="url(#edge)" opacity=".55"/>
-<circle cx="27" cy="24" r="5" fill="#ff5f56"/><circle cx="45" cy="24" r="5" fill="#ffbd2e"/><circle cx="63" cy="24" r="5" fill="#27c93f"/>
-<text x="88" y="29" fill="#68837c" font-family="monospace" font-size="13">system://profile/christopher</text>
-<g font-family="monospace" font-size="17">
-<text x="32" y="88" class="k">christopher@github</text>
-<g class="row" style="animation-delay:.10s"><text x="32" y="130" class="k">Role</text><text x="177" y="130" class="v">Student → software developer / builder</text></g>
-<g class="row" style="animation-delay:.18s"><text x="32" y="166" class="k">Focus</text><text x="177" y="166" class="v">Private apps • AI systems • games</text></g>
-<g class="row" style="animation-delay:.26s"><text x="32" y="202" class="k">Education</text><text x="177" y="202" class="v">Emeris — degree completed with distinction</text></g>
-<g class="row" style="animation-delay:.34s"><text x="32" y="238" class="k">Language</text><text x="177" y="238" class="v">English</text></g>
-<g class="row" style="animation-delay:.42s"><text x="32" y="274" class="k">Stack</text><text x="177" y="274" class="v">C# • .NET • ASP.NET • React • Node.js</text></g>
-<g class="row" style="animation-delay:.50s"><text x="177" y="306" class="v">Python • SQL • MongoDB • Docker • GitHub Actions</text></g>
-<g class="row" style="animation-delay:.58s"><text x="32" y="348" class="k">Builds</text><text x="177" y="348" class="v">Full-stack systems, automation &amp; interactive projects</text></g>
-<g class="row" style="animation-delay:.66s"><text x="32" y="384" class="k">Status</text><text x="177" y="384" fill="#89ffd6">● actively shipping</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="520" viewBox="0 0 640 520">
+<defs>
+  <linearGradient id="edge" x1="0" x2="1"><stop stop-color="#54ffd0"/><stop offset=".52" stop-color="#64d9ff"/><stop offset="1" stop-color="#c58cff"/></linearGradient>
+  <style>.k{fill:#7dffd8;font-weight:700}.v{fill:#d8e5e2}.row{opacity:0;animation:show .45s ease-out forwards}@keyframes show{to{opacity:1}}</style>
+</defs>
+<rect width="640" height="520" rx="18" fill="#05070a"/><rect x="2" y="2" width="636" height="516" rx="16" fill="none" stroke="url(#edge)" opacity=".55"/>
+<circle cx="24" cy="22" r="4.5" fill="#ff5f56"/><circle cx="41" cy="22" r="4.5" fill="#ffbd2e"/><circle cx="58" cy="22" r="4.5" fill="#27c93f"/>
+<text x="80" y="27" fill="#68837c" font-family="monospace" font-size="12">system://profile/christopher</text>
+<g font-family="monospace" font-size="15">
+<text x="26" y="72" class="k">christopher@github</text>
+<g class="row" style="animation-delay:.08s"><text x="26" y="112" class="k">role</text><text x="142" y="112" class="v">student → software developer / builder</text></g>
+<g class="row" style="animation-delay:.16s"><text x="26" y="146" class="k">focus</text><text x="142" y="146" class="v">private apps • AI systems • games</text></g>
+<g class="row" style="animation-delay:.24s"><text x="26" y="180" class="k">education</text><text x="142" y="180" class="v">Emeris — degree with distinction</text></g>
+<g class="row" style="animation-delay:.32s"><text x="26" y="214" class="k">stack</text><text x="142" y="214" class="v">C# • .NET • React • Node.js • Python</text></g>
+<g class="row" style="animation-delay:.40s"><text x="142" y="246" class="v">SQL • MongoDB • Docker • GitHub Actions</text></g>
+<g class="row" style="animation-delay:.48s"><text x="26" y="284" class="k">status</text><text x="142" y="284" fill="#89ffd6">● building in public</text></g>
 </g>
-<g transform="translate(32,430)" font-family="monospace"><text y="0" fill="#81958f" font-size="14">featured.exe</text><rect x="0" y="18" width="856" height="112" rx="10" fill="#07100e" stroke="#173b33"/>
-<text x="18" y="48" fill="#7dffd8" font-size="15">HustleHub+</text><text x="150" y="48" fill="#d5e4e0" font-size="14">secure MERN marketplace • Docker • CI/CD • Playwright</text>
-<text x="18" y="80" fill="#7edbff" font-size="15">CMCS</text><text x="150" y="80" fill="#d5e4e0" font-size="14">ASP.NET Core MVC workflow • EF Core • SQL Server</text>
-<text x="18" y="111" fill="#c793ff" font-size="15">next</text><text x="150" y="111" fill="#788f88" font-size="14">more public builds incoming...</text></g></svg>
+<g transform="translate(26,326)" font-family="monospace">
+<text y="0" fill="#81958f" font-size="12">selected_builds.exe</text>
+<rect x="0" y="18" width="588" height="142" rx="10" fill="#07100e" stroke="#173b33"/>
+<text x="16" y="49" fill="#7dffd8" font-size="14">HustleHub+</text><text x="142" y="49" fill="#d5e4e0" font-size="12.5">secure MERN marketplace</text>
+<text x="142" y="69" fill="#728a84" font-size="11.5">Docker • CI/CD • Playwright • security testing</text>
+<text x="16" y="103" fill="#7edbff" font-size="14">CMCS</text><text x="142" y="103" fill="#d5e4e0" font-size="12.5">ASP.NET Core MVC workflow</text>
+<text x="142" y="123" fill="#728a84" font-size="11.5">EF Core • SQL Server • reporting</text>
+<text x="16" y="149" fill="#c793ff" font-size="12">next:// more public builds incoming</text>
+</g></svg>

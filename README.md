@@ -3,6 +3,8 @@
 <br>
 <img src="./contrib-heatmap.svg" width="920" alt="Christopher Doyle contribution heatmap" />
 <br>
+<img src="./activity-dashboard.svg" width="920" alt="Christopher Doyle live activity telemetry dashboard" />
+<br>
 <table><tr>
 <td valign="top" width="42%"><img src="./cd-monogram.svg" width="100%" alt="Animated CD cyberpunk monogram" /></td>
 <td valign="top" width="58%"><img src="./info-card.svg" width="100%" alt="Christopher Doyle developer profile card" /></td>

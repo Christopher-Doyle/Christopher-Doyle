@@ -30,8 +30,8 @@ ASP.NET Core MVC claim automation system with multi-stage approvals, Entity Fram
 ### `christopher@github:~$ ./connect`
 
 - Email: [doylechristopher0202@gmail.com](mailto:doylechristopher0202@gmail.com)
-- LinkedIn: coming next
-- Instagram: coming next
+- LinkedIn: [Christopher Doyle](https://www.linkedin.com/in/christopher-doyle-034203376)
+- Instagram: [@chrissdoyle_](https://www.instagram.com/chrissdoyle_/)
 
 ### `christopher@github:~$ cat /etc/about`
 

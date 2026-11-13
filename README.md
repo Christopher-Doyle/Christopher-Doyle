@@ -4,7 +4,7 @@
 <img src="./contrib-heatmap.svg" width="920" alt="Christopher Doyle contribution heatmap" />
 <br>
 <table><tr>
-<td valign="top" width="42%"><img src="https://avatars.githubusercontent.com/u/164144240?v=4" width="100%" alt="ASCII portrait of Christopher Doyle" /></td>
+<td valign="top" width="42%"><img src="./cd-monogram.svg" width="100%" alt="Animated CD cyberpunk monogram" /></td>
 <td valign="top" width="58%"><img src="./info-card.svg" width="100%" alt="Christopher Doyle developer profile card" /></td>
 </tr></table>
 </div>
@@ -29,9 +29,11 @@ ASP.NET Core MVC claim automation system with multi-stage approvals, Entity Fram
 
 ### `christopher@github:~$ ./connect`
 
-- Email: [doylechristopher0202@gmail.com](mailto:doylechristopher0202@gmail.com)
-- LinkedIn: [Christopher Doyle](https://www.linkedin.com/in/christopher-doyle-034203376)
-- Instagram: [@chrissdoyle_](https://www.instagram.com/chrissdoyle_/)
+<table><tr>
+<td>📧 <a href="mailto:doylechristopher0202@gmail.com">Email</a></td>
+<td>💼 <a href="https://www.linkedin.com/in/christopher-doyle-034203376">LinkedIn</a></td>
+<td>📸 <a href="https://www.instagram.com/chrissdoyle_/">Instagram</a></td>
+</tr></table>
 
 ### `christopher@github:~$ cat /etc/about`
 

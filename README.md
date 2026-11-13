@@ -33,9 +33,9 @@ ASP.NET Core MVC claim automation system with multi-stage approvals, Entity Fram
 
 <table>
 <tr>
-<td width="33%" align="center"><a href="mailto:doylechristopher0202@gmail.com"><img src="./social-email.svg" width="100%" alt="Email Christopher Doyle" /></a></td>
+<td width="33%" align="center"><a href="mailto:christopherdoyleworks@gmail.com"><img src="./social-email.svg" width="100%" alt="Email Christopher Doyle" /></a></td>
 <td width="33%" align="center"><a href="https://www.linkedin.com/in/christopher-doyle-034203376"><img src="./social-linkedin.svg" width="100%" alt="Christopher Doyle LinkedIn" /></a></td>
-<td width="33%" align="center"><a href="https://www.instagram.com/chrissdoyle_/"><img src="./social-instagram.svg" width="100%" alt="Christopher Doyle Instagram" /></a></td>
+<td width="33%" align="center"><a href="https://www.instagram.com/christophercodez/"><img src="./social-instagram.svg" width="100%" alt="Christopher Doyle Instagram" /></a></td>
 </tr>
 </table>
 

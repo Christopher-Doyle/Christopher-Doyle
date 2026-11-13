@@ -21,7 +21,12 @@
 </path>
 <path d="M260 91 L402 172 L402 330 L260 409 L118 330 L118 172 Z" fill="none" stroke="#163f35" stroke-width="1.2"/>
 
-<g filter="url(#glow)" stroke="url(#hot)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+<g id="glitch-mark">
+  <animateTransform attributeName="transform" type="translate"
+    values="0 0;0 0;-4 0;5 0;-2 0;0 0;0 0;3 0;-3 0;0 0;0 0"
+    keyTimes="0;.48;.50;.515;.53;.55;.78;.795;.81;.825;1"
+    dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
+  <g filter="url(#glow)" stroke="url(#hot)" fill="none" stroke-linecap="square" stroke-linejoin="miter">
  <path d="M254 157 H216 C169 157 137 194 137 250 C137 306 169 343 216 343 H254" stroke-width="25">
    <animate attributeName="stroke-dasharray" values="0 500;440 0" dur=".95s" fill="freeze"/>
  </path>
@@ -29,13 +34,30 @@
    <animate attributeName="stroke-dasharray" values="0 650;590 0" begin=".18s" dur="1.05s" fill="freeze"/>
  </path>
 </g>
+  <g stroke="#61f7ff" fill="none" stroke-width="7" opacity="0">
+    <path d="M254 157 H216 C169 157 137 194 137 250 C137 306 169 343 216 343 H254"/>
+    <path d="M242 157 H291 C345 157 382 194 382 250 C382 306 345 343 291 343 H242 V157 Z"/>
+    <animate attributeName="opacity" values="0;0;.55;0;0;.38;0" keyTimes="0;.49;.505;.535;.79;.805;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
+    <animateTransform attributeName="transform" type="translate" values="-6 0;6 0;-4 0" dur=".16s" repeatCount="indefinite"/>
+  </g>
+  <g stroke="#d178ff" fill="none" stroke-width="5" opacity="0">
+    <path d="M254 157 H216 C169 157 137 194 137 250 C137 306 169 343 216 343 H254"/>
+    <path d="M242 157 H291 C345 157 382 194 382 250 C382 306 345 343 291 343 H242 V157 Z"/>
+    <animate attributeName="opacity" values="0;0;.38;0;0;.5;0" keyTimes="0;.495;.51;.54;.795;.81;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/>
+    <animateTransform attributeName="transform" type="translate" values="5 0;-5 0;3 0" dur=".14s" repeatCount="indefinite"/>
+  </g>
+</g>
 
 <!-- glitch cuts -->
 <g stroke="#05070a" stroke-width="12">
- <path d="M112 229 H221"/><path d="M292 273 H410"/><path d="M187 314 H303"/>
+ <path d="M112 229 H221"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-13 0;8 0;0 0" keyTimes="0;.49;.505;.525;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/></path>
+ <path d="M292 273 H410"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;11 0;-7 0;0 0" keyTimes="0;.795;.805;.825;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/></path>
+ <path d="M187 314 H303"><animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;.51;.515;.53;1" dur="4.8s" repeatCount="indefinite"/></path>
 </g>
 <g stroke="url(#hot)" stroke-width="3" opacity=".85">
- <path d="M106 223 H182"/><path d="M336 267 H414"/><path d="M214 308 H304"/>
+ <path d="M106 223 H182"><animate attributeName="opacity" values=".85;.85;0;1;0;.85" keyTimes="0;.49;.5;.515;.53;1" dur="4.8s" repeatCount="indefinite"/></path>
+ <path d="M336 267 H414"><animateTransform attributeName="transform" type="translate" values="0 0;0 0;-15 0;10 0;0 0" keyTimes="0;.79;.80;.82;1" dur="4.8s" repeatCount="indefinite" calcMode="discrete"/></path>
+ <path d="M214 308 H304"><animate attributeName="opacity" values=".85;.85;0;.85" keyTimes="0;.505;.52;1" dur="4.8s" repeatCount="indefinite"/></path>
 </g>
 
 <g fill="none" stroke="url(#neon)" stroke-width="1.2" opacity=".45">

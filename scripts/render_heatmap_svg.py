@@ -1,6 +1,28 @@
 import json,html
 from pathlib import Path
-R=Path(__file__).resolve().parents[1]; D=json.loads((R/"data/contributions.json").read_text()); days=D.get("days",[])[-371:]; days=[{"date":"","count":0,"level":0}]*(371-len(days))+days; P=["#101715","#12392c","#126545","#1b9a69","#4ad9a4"]; cells=[]
+
+R=Path(__file__).resolve().parents[1]
+D=json.loads((R/"data/contributions.json").read_text(encoding="utf-8"))
+days=D.get("days",[])[-371:]
+days=[{"date":"","count":0,"level":0,"active":False}]*(371-len(days))+days
+P=["#0d1412","#113a2d","#126545","#1b9a69","#4ad9a4"]
+cells=[]
 for i,d in enumerate(days):
- w,k=divmod(i,7); x,y=24+w*15,58+k*15; delay=w*.015+k*.02; lvl=max(0,min(int(d.get("level",0)),4)); cells.append(f'<rect x="{x}" y="{y}" width="10" height="10" rx="2" fill="{P[lvl]}" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" dur=".25s" fill="freeze"/></rect>')
-s=D.get("stats",{}); footer=f'{s.get("total",0):,} contributions • current streak {s.get("current_streak",0)}d • longest {s.get("longest_streak",0)}d'; svg='<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200"><rect width="100%" height="100%" rx="16" fill="#05070a"/><rect x="2" y="2" width="836" height="196" rx="14" fill="none" stroke="#18362f"/><text x="24" y="32" fill="#7dffd8" font-family="monospace" font-size="15">$ ./contributions.sh</text>'+''.join(cells)+f'<text x="24" y="183" fill="#78928b" font-family="monospace" font-size="12">{html.escape(footer)}</text></svg>'; (R/"contrib-heatmap.svg").write_text(svg)
+    w,k=divmod(i,7)
+    x,y=24+w*15,58+k*15
+    delay=w*.015+k*.02
+    lvl=max(0,min(int(d.get("level",0)),4))
+    cells.append(f'<rect x="{x}" y="{y}" width="10" height="10" rx="2" fill="{P[lvl]}" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" dur=".25s" fill="freeze"/></rect>')
+
+s=D.get("stats",{})
+active=s.get("active_days",0)
+current=s.get("current_streak",0)
+longest=s.get("longest_streak",0)
+total=s.get("total")
+if total is None:
+    footer=f"ACTIVITY // {active} active days  •  {current}d streak  •  {longest}d longest  •  SYSTEM ONLINE"
+else:
+    footer=f"ACTIVITY // {total:,} contributions  •  {active} active days  •  {current}d streak  •  SYSTEM ONLINE"
+
+svg='<svg xmlns="http://www.w3.org/2000/svg" width="840" height="200" viewBox="0 0 840 200"><defs><linearGradient id="edge" x1="0" x2="1"><stop stop-color="#54ffd0"/><stop offset=".55" stop-color="#64d9ff"/><stop offset="1" stop-color="#c58cff"/></linearGradient></defs><rect width="100%" height="100%" rx="16" fill="#05070a"/><rect x="2" y="2" width="836" height="196" rx="14" fill="none" stroke="url(#edge)" opacity=".45"/><text x="24" y="32" fill="#7dffd8" font-family="monospace" font-size="15">$ ./contributions.sh</text>'+''.join(cells)+f'<text x="24" y="183" fill="#91aaa3" font-family="monospace" font-size="11.5">{html.escape(footer)}</text></svg>'
+(R/"contrib-heatmap.svg").write_text(svg,encoding="utf-8")

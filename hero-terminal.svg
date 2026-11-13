@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="185" viewBox="0 0 920 185">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0%" stop-color="#72ffd1"/><stop offset="45%" stop-color="#7edbff"/><stop offset="100%" stop-color="#c793ff"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="920" height="185" rx="20" fill="#05070a"/><rect x="2" y="2" width="916" height="181" rx="18" fill="none" stroke="#173c34"/>
+<circle cx="27" cy="24" r="5" fill="#ff5f56"/><circle cx="45" cy="24" r="5" fill="#ffbd2e"/><circle cx="63" cy="24" r="5" fill="#27c93f"/>
+<text x="87" y="29" fill="#5f8078" font-size="13" font-family="monospace">christopher@github: ~</text>
+<text x="28" y="78" fill="#7dffd8" font-size="19" font-family="monospace">$ whoami</text>
+<text x="28" y="112" fill="url(#g)" font-size="31" font-weight="700" font-family="monospace" filter="url(#gl)">Christopher Doyle</text>
+<text x="28" y="146" fill="#d5e9e4" font-size="16" font-family="monospace">Developer • AI Builder • Game Creator • Distinction Graduate</text>
+<text x="28" y="168" fill="#748e88" font-size="14" font-family="monospace">building private apps, intelligent systems &amp; games</text>
+<rect x="790" y="151" width="10" height="16" fill="#7dffd8"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></svg>

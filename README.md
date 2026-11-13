@@ -4,7 +4,7 @@
 <img src="./contrib-heatmap.svg" width="920" alt="Christopher Doyle contribution heatmap" />
 <br>
 <table><tr>
-<td valign="top" width="42%"><img src="./christopher-ascii.svg" width="100%" alt="Animated ASCII portrait of Christopher Doyle" /></td>
+<td valign="top" width="42%"><img src="https://avatars.githubusercontent.com/u/164144240?v=4" width="100%" alt="ASCII portrait of Christopher Doyle" /></td>
 <td valign="top" width="58%"><img src="./info-card.svg" width="100%" alt="Christopher Doyle developer profile card" /></td>
 </tr></table>
 </div>

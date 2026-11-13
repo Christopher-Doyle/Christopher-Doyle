@@ -5,6 +5,6 @@
 <text x="87" y="29" fill="#5f8078" font-size="13" font-family="monospace">christopher@github: ~</text>
 <text x="28" y="78" fill="#7dffd8" font-size="19" font-family="monospace">$ whoami</text>
 <text x="28" y="112" fill="url(#g)" font-size="31" font-weight="700" font-family="monospace" filter="url(#gl)">Christopher Doyle</text>
-<text x="28" y="146" fill="#d5e9e4" font-size="16" font-family="monospace">Developer • AI Builder • Game Creator • Distinction Graduate</text>
+<text x="28" y="146" fill="#d5e9e4" font-size="16" font-family="monospace">Developer • AI • Game Creator • Graduate</text>
 <text x="28" y="168" fill="#748e88" font-size="14" font-family="monospace">building private apps, intelligent systems &amp; games</text>
 <rect x="790" y="151" width="10" height="16" fill="#7dffd8"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect></svg>

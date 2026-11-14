@@ -13,21 +13,52 @@
 
 ### `christopher@github:~$ ./featured-projects`
 
-<table><tr><td width="50%" valign="top">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-#### HustleHub+
-Secure MERN freelance marketplace with role-based access, bookings, tax/income dashboards, Docker, CI/CD, Semgrep, Playwright and API testing.
+#### NEXUS
+A controlled workspace for local-first autonomous AI workflows, built around auditable planning, approval gates and safe tool orchestration.
 
-[View repository](https://github.com/Christopher-Doyle/HustleHub-INSY7314)
+**AI orchestration · Python · FastAPI · React · TypeScript · Ollama**
 
-</td><td width="50%" valign="top">
+[View repository](https://github.com/Christopher-Doyle/NEXUS)
 
-#### Contract Monthly Claim System
-ASP.NET Core MVC claim automation system with multi-stage approvals, Entity Framework Core, SQL Server, reporting and document workflows.
+</td>
+<td width="50%" valign="top">
 
-[View repository](https://github.com/Christopher-Doyle/programming6212-poe-part-3-Christopher-Doyle)
+#### SENTINEL
+An explainable defensive security platform that turns authorised logs into correlated incidents for investigation and response.
 
-</td></tr></table>
+**Cybersecurity · Python · FastAPI · PostgreSQL · React**
+
+[View repository](https://github.com/Christopher-Doyle/SENTINEL)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### VANTAGE
+A privacy-conscious personal finance dashboard for imported transactions, budgeting, analytics and transparent forecasting.
+
+**Full stack · Next.js · TypeScript · PostgreSQL · Analytics**
+
+[View repository](https://github.com/Christopher-Doyle/VANTAGE)
+
+</td>
+<td width="50%" valign="top">
+
+#### PULSE
+A lightweight real-time observability platform for host metrics, live monitoring, historical trends and alerting.
+
+**Systems engineering · Go · WebSockets · React · Time series**
+
+[View repository](https://github.com/Christopher-Doyle/PULSE)
+
+</td>
+</tr>
+</table>
 
 ### `christopher@github:~$ ./connect --secure`
 

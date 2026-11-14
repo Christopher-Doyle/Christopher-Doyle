@@ -11,50 +11,59 @@
 </tr></table>
 </div>
 
-### `christopher@github:~$ ./featured-projects`
+### `christopher@github:~$ ./featured-projects --matrix`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### NEXUS
-A controlled workspace for local-first autonomous AI workflows, built around auditable planning, approval gates and safe tool orchestration.
+#### `NEXUS // AI-OPS`
+`STATUS:` **PLANNED**  
+`MODE:` local-first autonomous workflows  
+`STACK:` `Python` · `FastAPI` · `React` · `TypeScript` · `Ollama`
 
-**AI orchestration · Python · FastAPI · React · TypeScript · Ollama**
+> A controlled workspace for local-first autonomous AI workflows, built around auditable planning, approval gates and safe tool orchestration.
 
-[View repository](https://github.com/Christopher-Doyle/NEXUS)
+`[ open repo ]` → [NEXUS](https://github.com/Christopher-Doyle/NEXUS)
 
 </td>
 <td width="50%" valign="top">
 
-#### SENTINEL
-An explainable defensive security platform that turns authorised logs into correlated incidents for investigation and response.
+#### `SENTINEL // DEFENCE`
+`STATUS:` **PLANNED**  
+`MODE:` explainable threat detection  
+`STACK:` `Python` · `FastAPI` · `PostgreSQL` · `React`
 
-**Cybersecurity · Python · FastAPI · PostgreSQL · React**
+> An explainable defensive security platform that turns authorised logs into correlated incidents for investigation and response.
 
-[View repository](https://github.com/Christopher-Doyle/SENTINEL)
+`[ open repo ]` → [SENTINEL](https://github.com/Christopher-Doyle/SENTINEL)
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-#### VANTAGE
-A privacy-conscious personal finance dashboard for imported transactions, budgeting, analytics and transparent forecasting.
+#### `VANTAGE // FINANCE`
+`STATUS:` **PLANNED**  
+`MODE:` privacy-first finance intelligence  
+`STACK:` `Next.js` · `TypeScript` · `PostgreSQL` · `Analytics`
 
-**Full stack · Next.js · TypeScript · PostgreSQL · Analytics**
+> A privacy-conscious personal finance dashboard for imported transactions, budgeting, analytics and transparent forecasting.
 
-[View repository](https://github.com/Christopher-Doyle/VANTAGE)
+`[ open repo ]` → [VANTAGE](https://github.com/Christopher-Doyle/VANTAGE)
 
 </td>
 <td width="50%" valign="top">
 
-#### PULSE
-A lightweight real-time observability platform for host metrics, live monitoring, historical trends and alerting.
+#### `PULSE // TELEMETRY`
+`STATUS:` **PLANNED**  
+`MODE:` lightweight observability  
+`STACK:` `Go` · `WebSockets` · `React` · `Time series`
 
-**Systems engineering · Go · WebSockets · React · Time series**
+> A lightweight real-time observability platform for host metrics, live monitoring, historical trends and alerting.
 
-[View repository](https://github.com/Christopher-Doyle/PULSE)
+`[ open repo ]` → [PULSE](https://github.com/Christopher-Doyle/PULSE)
 
 </td>
 </tr>

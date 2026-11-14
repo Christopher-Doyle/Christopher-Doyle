@@ -15,56 +15,19 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### `NEXUS // AI-OPS`
-`STATUS:` **PLANNED**  
-`MODE:` local-first autonomous workflows  
-`STACK:` `Python` · `FastAPI` · `React` · `TypeScript` · `Ollama`
-
-> A controlled workspace for local-first autonomous AI workflows, built around auditable planning, approval gates and safe tool orchestration.
-
-`[ open repo ]` → [NEXUS](https://github.com/Christopher-Doyle/NEXUS)
-
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Christopher-Doyle/NEXUS"><img src="./project-nexus.svg" width="100%" alt="NEXUS — AI orchestration project" /></a>
 </td>
-<td width="50%" valign="top">
-
-#### `SENTINEL // DEFENCE`
-`STATUS:` **PLANNED**  
-`MODE:` explainable threat detection  
-`STACK:` `Python` · `FastAPI` · `PostgreSQL` · `React`
-
-> An explainable defensive security platform that turns authorised logs into correlated incidents for investigation and response.
-
-`[ open repo ]` → [SENTINEL](https://github.com/Christopher-Doyle/SENTINEL)
-
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Christopher-Doyle/SENTINEL"><img src="./project-sentinel.svg" width="100%" alt="SENTINEL — cybersecurity project" /></a>
 </td>
 </tr>
-
 <tr>
-<td width="50%" valign="top">
-
-#### `VANTAGE // FINANCE`
-`STATUS:` **PLANNED**  
-`MODE:` privacy-first finance intelligence  
-`STACK:` `Next.js` · `TypeScript` · `PostgreSQL` · `Analytics`
-
-> A privacy-conscious personal finance dashboard for imported transactions, budgeting, analytics and transparent forecasting.
-
-`[ open repo ]` → [VANTAGE](https://github.com/Christopher-Doyle/VANTAGE)
-
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Christopher-Doyle/VANTAGE"><img src="./project-vantage.svg" width="100%" alt="VANTAGE — finance intelligence project" /></a>
 </td>
-<td width="50%" valign="top">
-
-#### `PULSE // TELEMETRY`
-`STATUS:` **PLANNED**  
-`MODE:` lightweight observability  
-`STACK:` `Go` · `WebSockets` · `React` · `Time series`
-
-> A lightweight real-time observability platform for host metrics, live monitoring, historical trends and alerting.
-
-`[ open repo ]` → [PULSE](https://github.com/Christopher-Doyle/PULSE)
-
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/Christopher-Doyle/PULSE"><img src="./project-pulse.svg" width="100%" alt="PULSE — observability project" /></a>
 </td>
 </tr>
 </table>

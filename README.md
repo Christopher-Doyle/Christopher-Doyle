@@ -16,7 +16,7 @@
 <table>
 <tr>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/Christopher-Doyle/NEXUS"><img src="./project-nexus.svg" width="100%" alt="NEXUS — AI orchestration project" /></a>
+<a href="https://github.com/Christopher-Doyle/NEXUS"><img src="./project-nexus.svg" width="100%" alt="NEXUS — AI orchestration v1.0.0 complete and released" /></a>
 </td>
 <td width="50%" valign="top" align="center">
 <a href="https://github.com/Christopher-Doyle/SENTINEL"><img src="./project-sentinel.svg" width="100%" alt="SENTINEL — cybersecurity project" /></a>

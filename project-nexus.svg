@@ -26,22 +26,24 @@
  <animateTransform attributeName="transform" type="rotate" from="0 83 108" to="360 83 108" dur="11s" repeatCount="indefinite"/>
 </circle>
 <circle cx="83" cy="108" r="22" fill="#07100e" stroke="#6be5ff" stroke-opacity=".75"/>
-<text x="83" y="114" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#b58cff" filter="url(#glow)">NE</text>
+<text x="84.5" y="115.5" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#6be5ff" opacity=".22">NE</text>
+<text x="83" y="114" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#f5fffc" stroke="#b58cff" stroke-width=".35" paint-order="stroke">NE</text>
 
 <!-- header -->
 <text x="151" y="59" font-family="monospace" font-size="11" fill="#617a73">PROJECT NODE // AI-OPS</text>
-<text x="151" y="91" font-family="monospace" font-size="29" font-weight="700" fill="#b58cff" filter="url(#glow)">NEXUS</text>
+<text x="153" y="93" font-family="monospace" font-size="29" font-weight="700" fill="#b58cff" opacity=".18">NEXUS</text>
+<text x="151" y="91" font-family="monospace" font-size="29" font-weight="700" fill="#f1fff9" stroke="#b58cff" stroke-width=".45" paint-order="stroke">NEXUS</text>
 <text x="151" y="117" font-family="monospace" font-size="11.5" fill="#d6e8e3">AUTONOMOUS AI ORCHESTRATION</text>
 
 <!-- status strip -->
 <rect x="151" y="137" width="420" height="27" rx="7" fill="#07110f" stroke="#2b936b" stroke-opacity=".75"/>
-<circle cx="167" cy="150.5" r="4" fill="#52ffc1" filter="url(#glow)">
+<circle cx="167" cy="150.5" r="4" fill="#52ffc1">
  <animate attributeName="opacity" values="1;.18;1" dur="1.1s" repeatCount="indefinite"/>
 </circle>
 <text x="180" y="154" font-family="monospace" font-size="10.5" fill="#8ca49d">AGENT CONTROL // LIVE</text>
 <text x="457" y="154" font-family="monospace" font-size="10.5" fill="#6be5ff">v1.0.0</text>
-<text x="563" y="154" text-anchor="end" font-family="monospace" font-size="10.5" font-weight="700" fill="#52ffc1" filter="url(#glow)">COMPLETE
- <animate attributeName="opacity" values="1;.7;1" dur="3.2s" repeatCount="indefinite"/>
+<text x="563" y="154" text-anchor="end" font-family="monospace" font-size="10.8" font-weight="700" fill="#dffff2" stroke="#52ffc1" stroke-width=".25" paint-order="stroke">COMPLETE
+ <animate attributeName="opacity" values="1;.88;1" dur="3.2s" repeatCount="indefinite"/>
 </text>
 
 <!-- body -->

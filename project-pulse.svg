@@ -26,11 +26,13 @@
  <animateTransform attributeName="transform" type="rotate" from="0 83 108" to="360 83 108" dur="11s" repeatCount="indefinite"/>
 </circle>
 <circle cx="83" cy="108" r="22" fill="#07100e" stroke="#ff8f6b" stroke-opacity=".75"/>
-<text x="83" y="114" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#ffd36a" filter="url(#glow)">PU</text>
+<text x="84.5" y="115.5" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#ff8f6b" opacity=".22">PU</text>
+<text x="83" y="114" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#f5fffc" stroke="#ffd36a" stroke-width=".35" paint-order="stroke">PU</text>
 
 <!-- header -->
 <text x="151" y="59" font-family="monospace" font-size="11" fill="#617a73">PROJECT NODE // TELEMETRY</text>
-<text x="151" y="91" font-family="monospace" font-size="29" font-weight="700" fill="#ffd36a" filter="url(#glow)">PULSE</text>
+<text x="153" y="93" font-family="monospace" font-size="29" font-weight="700" fill="#ffd36a" opacity=".18">PULSE</text>
+<text x="151" y="91" font-family="monospace" font-size="29" font-weight="700" fill="#f1fff9" stroke="#ffd36a" stroke-width=".45" paint-order="stroke">PULSE</text>
 <text x="151" y="117" font-family="monospace" font-size="11.5" fill="#d6e8e3">REAL-TIME SYSTEM OBSERVABILITY</text>
 
 <!-- status strip -->
@@ -39,7 +41,7 @@
  <animate attributeName="opacity" values="1;.18;1" dur="1.1s" repeatCount="indefinite"/>
 </circle>
 <text x="180" y="154" font-family="monospace" font-size="10.5" fill="#8ca49d">TELEMETRY NODE ACTIVE</text>
-<text x="506" y="154" font-family="monospace" font-size="10.5" fill="#ff8f6b">PLANNED</text>
+<text x="506" y="154" font-family="monospace" font-size="10.8" font-weight="700" fill="#efffff" stroke="#ff8f6b" stroke-width=".22" paint-order="stroke">PLANNED</text>
 
 <!-- body -->
 <text x="36" y="197" font-family="monospace" font-size="13" fill="#d7e5e1">Host metrics, live streaming,</text>

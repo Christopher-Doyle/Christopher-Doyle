@@ -5,6 +5,7 @@ on:
     branches: [main]
   schedule:
     - cron: "17 */2 * * *"
+    - cron: "5 22 * * *"   # 00:05 Africa/Johannesburg
   workflow_dispatch: {}
 
 permissions:

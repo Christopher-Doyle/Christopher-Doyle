@@ -1,49 +1,7 @@
 {
   "username": "Christopher-Doyle",
-  "fetched_at": "2026-11-21T21:40:30.652009Z",
+  "fetched_at": "2026-11-22T02:02:35.684203Z",
   "days": [
-    {
-      "date": "2025-11-16",
-      "count": 0,
-      "level": 0,
-      "active": false
-    },
-    {
-      "date": "2025-11-17",
-      "count": 0,
-      "level": 0,
-      "active": false
-    },
-    {
-      "date": "2025-11-18",
-      "count": 0,
-      "level": 0,
-      "active": false
-    },
-    {
-      "date": "2025-11-19",
-      "count": 4,
-      "level": 1,
-      "active": true
-    },
-    {
-      "date": "2025-11-20",
-      "count": 4,
-      "level": 1,
-      "active": true
-    },
-    {
-      "date": "2025-11-21",
-      "count": 4,
-      "level": 1,
-      "active": true
-    },
-    {
-      "date": "2025-11-22",
-      "count": 0,
-      "level": 0,
-      "active": false
-    },
     {
       "date": "2025-11-23",
       "count": 0,
@@ -2227,12 +2185,18 @@
       "count": 8,
       "level": 2,
       "active": true
+    },
+    {
+      "date": "2026-11-22",
+      "count": 0,
+      "level": 0,
+      "active": false
     }
   ],
   "stats": {
-    "total": 210,
+    "total": 198,
     "counts_available": true,
-    "active_days": 24,
+    "active_days": 21,
     "current_streak": 1,
     "longest_streak": 4,
     "best_day": {
@@ -2243,9 +2207,9 @@
     },
     "monthly": {
       "2025-11": {
-        "active_days": 3,
-        "intensity": 3,
-        "contributions": 12
+        "active_days": 0,
+        "intensity": 0,
+        "contributions": 0
       },
       "2025-12": {
         "active_days": 0,
@@ -2311,9 +2275,9 @@
     "weekday_active_days": [
       2,
       2,
-      3,
       2,
-      5,
+      1,
+      4,
       4,
       6
     ]
